@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div class="ct">
+		<form action="/users" method="post">
+			<label>Your Name:</label>
+			<input type="text" name="name"><br>
+			<label>Dojo Location</label>
+			<select name = "location">
+				<option value="seattle">Seattle</option>
+				<option value="san_jose">San Jose</option>
+				<option value="chicago">Chicago</option>
+				<option value="dallas">Dallas</option>
+			</select><br>
+			<label>Favorite Language</label>
+			<select name = "language">
+				<option value="python">Python</option>
+				<option value="js">Java Script</option>
+				<option value="swift">Swift</option>
+				<option value="ruby">Ruby</option>
+			</select><br>
+			<label>Comment (optional) :</label>
+			<textarea name="comment" cols="40" rows="8"></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+
+	</div>
+</body>
+</html>

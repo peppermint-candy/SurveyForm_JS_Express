@@ -1,0 +1,46 @@
+
+
+.ct {
+	height: 300px;
+	width: 500px;
+	vertical-align: top;
+	margin: 20px auto;
+	border: 2px solid grey;
+	border-radius: 3px;
+}
+
+input {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+option {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+select {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+label {
+	margin-top: 10px;
+	vertical-align: top;
+	width: 100px;
+	display: inline-block;
+	margin-left: 10px;
+
+}
+
+.result {
+	margin-left: 10px;
+	width: 180px;
+	display: inline-block;
+	font-size: 18px;
+
+}
+
+
